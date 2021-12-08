@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Uberfire Homepage · Uberfire Framework</title>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <meta content="" name="description">
+      <meta content="" name="author">
+      <!-- <link href="/stylesheets-source/_bootstrap-community.less" rel="stylesheet/less" type="text/css"> -->
+      <!-- <link href="/stylesheets-source/_bootstrap-community.less" rel="stylesheet/less" type="text/css"> -->
+      <link rel="stylesheet" type="text/css" href="../stylesheets/bootstrap-community.css" >
+      <!-- IE 6-8 support of HTML 5 elements -->
+      <!--[if lt IE 9]>
+      <script src="/theme/js/libs/html5/pre3.6/html5.min.js"></script>
+      <![endif]-->
+      <!-- Defines the project favicon. Change these URLs to your specific project folder on static.jboss.org. -->
+      <link href="/upload/images/favicon.ico" rel="shortcut icon">
+      <link href="/upload/images/apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+      <link href="/upload/images/apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+      <link href="/upload/images/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+      <link href="/upload/images/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+   
+      <style>
+         @media (min-width: 980px) {
+         .banner { background-image: url(/upload/images/uberfire-banner-1180px.png); height: 110px;  }
+         }
+         @media (max-width: 979px) {
+         .banner { background-image: url(/upload/images/uberfire-logo.png); background-repeat:no-repeat; background-position: 30px 15px; height: 100px; background-size: auto 70%; }
+         }
+         @media (max-width: 650px) {
+         .banner { width: 100%; margin: 0px auto; }
+         }
+         @media (max-width: 450px) {
+         .banner { height: 90px; }
+         }
+      </style>
+      <script src="/javascripts/jquery-1.9.1.js"></script>
+      <script src="/javascripts/less-1.4.1.min.js"></script>
+      <style>
+         /* adjusting the vertical spacing for when a stickynav is engaged */
+         .breadcrumb-fixed > .active {
+         color: #8c8f91;
+         }
+         .breadcrumb-fixed {
+         margin: 70px 0 10px;
+         padding: 8px 15px;
+         margin-bottom: 20px;
+         list-style: none;
+         background-color: #f5f5f5;
+         border-radius: 4px;
+         }
+         .breadcrumb-fixed > li {
+         display: inline-block;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="main-container" id="">
+         <!-- begin accesibility skip to top -->
+         <ul class="visuallyhidden" id="top">
+            <li>
+               <a accesskey="n" href="#nav" title="Skip to navigation">Skip to navigation</a>
+            </li>
+            <li>
+               <a accesskey="c" href="#page" title="Skip to content">Skip to content</a>
+            </li>
+         </ul>
+         <div class="container" id="content">
+            <div class="dropup">
+               <div id="ajbossproject">A JBoss Project</div>
+               <a class="tabnav-closed" href="#" id="tab">Red Hat</a>
+               <script>
+                  window.addEventListener('load', function() { renderTabzilla("Uberfire","uberfire") }, false);
+                  
+                   
+               </script>
+            </div>
+            <div class="banner">
+               <a href="#"></a>
+               <div class="taglinedark sr-only">
+                  <h4>Maintainable and customizable workbench-style apps.</h4>
+               </div>
+            </div>
+            <div class="uberfire-nav">
+               <div class="navbar navbar-inverse navbar-fix" id="sticky-navbar">
+                  <div class="container-fluid">
+                     <div class="navbar-header">
+                        <button class="navbar-toggle collapsed" data-target="#navbar-1" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                     </div>
+                     <div class="collapse navbar-collapse" id="navbar-1">
+                        <ul class="nav navbar-nav">
+                           <li>
+                              <div class="fixed-brand">
+                                 <img height="50px" src="/upload/images/navbar-logo.png">
+                              </div>
+                           </li>
+                           <li class=""><a href="/index.html">Home</a></li>
+                           <li class=""><a href="/downloads.html">Downloads</a></li>
+                           <li class=""><a href="/docs/">Documentation</a></li>
+                           <li class=""><a href="/community.html">Join our Community</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="uberfire-jumbotron">
+               <div class="row">
+                  <div class="col-md-4 col-md-offset-4 text-center">
+                     <a href="#"></a>
+                     <!-- %img(src="#{site.jborg_images_url}/common/uberfire-logo.png" width="300px" height="300px") -->
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="carousel slide" id="myCarousel">
+                        <ol class="carousel-indicators">
+                           <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                           <li data-slide-to="1" data-target="#myCarousel"></li>
+                           <li data-slide-to="2" data-target="#myCarousel"></li>
+                           <li data-slide-to="3" data-target="#myCarousel"></li>
+                        </ol>
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                           <div class="item main active">
+                              <div class="col-md-12">
+                                 <h2>
+                                    UberFire is a web framework for a superior experience in building extensible workbenches and console type applications
+                                 </h2>
+                                 <p>
+                                    It provides an Eclipse like workbench experience for the web, helping you to make maintainable, customizable workbench-style apps in no time flat.
+                                 </p>
+                                 <p>
+                                    Our ultimate goal in Uberfire is to provide a strong ecosystem around it, based on a rich set of pluggable components and a strong infrastructure, allowing different type of users easily build Rich Web Apps on top of it.
+                                 </p>
+                                 <p>
+                                    Uberfire is the technology behind of Drools and jBPM web tooling and based on challenges and lessons learned during the workbench development of these projects.
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="item errai">
+                              <div class="col-md-6">
+                                 <h2>Built on Top of Errai</h2>
+                                 <p>Built on the strengths of ERRAI, Uberfire allows you to write and maintain your application code in the Java programming language with all of the Java tooling at your disposal, then deploy it to the browser as a native JavaScript + HTML application.</p>
+                                 <br>
+                                 <a class="btn btn-primary" href="http://erraiframework.org">Errai Framework website &raquo;</a>
+                              </div>
+                              <div class="col-md-6 hidden-sm hidden-xs">
+                                 <img class="img-responsive center-block" src="/upload/images/errai.png">
+                              </div>
+                           </div>
+                           <div class="item java">
+                              <div class="col-md-6">
+                                 <h2>Pure Java</h2>
+                                 <p>You just need to write all your code in Pure Java and GWT & Errai will do the rest for you. You will be free to use your favourite IDE to refactor and debug your code.</p>
+                              </div>
+                              <div class="col-md-6 hidden-sm hidden-xs">
+                                 <img class="img-responsive center-block" src="/upload/images/purejava.png">
+                              </div>
+                           </div>
+                           <div class="item download">
+                              <div class="col-md-6">
+                                 <h2>Downloads</h2>
+                                 <p>Feel free to download our showcase and give it a try locally to see what it can be done with uberfire.</p>
+                                 <br>
+                                 <a class="btn btn-primary" href="https://repo1.maven.org/maven2/org/uberfire/showcase-distribution-wars/1.0.0.Beta1/showcase-distribution-wars-1.0.0.Beta1-tomcat7.0.war">Download (Tomcat) Showcase now</a>
+                              </div>
+                              <div class="col-md-6 hidden-sm hidden-xs">
+                                 <img class="img-responsive img-top center-block" src="/upload/images/downloads.png">
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Carousel nav -->
+                        <a class="left carousel-control" data-slide="prev" href="#myCarousel">‹</a>
+                        <a class="right carousel-control" data-slide="next" href="#myCarousel">›</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="uberfire-features">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="well">
+                        <div class="item-img-container">
+                           <img class="img-responsive" src="/upload/images//layout.png">
+                        </div>
+                        <h2>Flexible Layout</h2>
+                        <p>Drag-and-drop layouts give your users control over their work environment.</p>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="well">
+                        <div class="item-img-container">
+                           <img class="img-responsive" src="/upload/images/files.png">
+                        </div>
+                        <h2>Powerful VFS</h2>
+                        <p>UberFire is backed up by the power of GIT. A Virtual File System, built on top of JGIT, provides support for change tracking including a metadata engine, full-text search, and security integration.</p>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="well">
+                        <div class="item-img-container">
+                           <img class="img-responsive" src="/upload/images/plugin.png">
+                        </div>
+                        <h2>Native Plugin System</h2>
+                        <p>Develop plugins in Java against our declarative, typesafe APIs, or choose your favorite JavaScript framework to develop your perspectives, views, editors, menu items, etc.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="uberfire-blog">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="well events">
+                        <h2>Community Events</h2>
+                        <div class="item">
+                           <h5>The Developer's Conference 2016 S&atilde;o Paulo BR</h5>
+                           <p>Uberfire's commiter, Eder Ignatowicz will speak at TDC 2016 S&atilde;o Paulo. If you want to discover more about Uberfire, this is a great opportunity! Take a look at the conference site for more information.</p>
+                           <a href="http://www.thedevelopersconference.com.br/tdc/2016/saopaulo/trilha-java-ee">TDC 2016 Site &raquo;</a>
+                        </div>
+                        <div class="item">
+                           <h5>The Developer's Conference 2016 Florian&oacute;polis BR</h5>
+                           <p>Uberfire's commiter, Eder Ignatowicz will speak at TDC 2016 Florian&oacute;polis. If you want to discover more about Uberfire, this is a great opportunity! Take a look at the conference site for more information.</p>
+                           <a href="http://www.thedevelopersconference.com.br/tdc/2016/index.html#florianopolis">TDC 2016 Site &raquo;</a>
+                        </div>
+                        <div class="item">
+                           <h5>QCon SP 2016 BR</h5>
+                           <p>Some Uberfire team members will be at QCon SP 2016! Alexandre Porcelli and Eder Ignatowicz will give speeches, which is a good opportunity to talk more with Uberfire's commiters! Take a look at the conference site for more information.</p>
+                           <a href="http://qconsp.com/">QCon SP Site &raquo;</a>
+                        </div>
+                        <div class="item">
+                           <h5>GWT Create 2015 US/EU</h5>
+                           <p>Uberfire will be at GWT Create US/EU, take a look at the conference site for more information.</p>
+                           <a href="http://gwtcreate.com">GWT Create Site &raquo;</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <footer class="container">
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="license">
+                     <h4>ASL 2.0 License</h4>
+                     <p>UberFire is licensed under the Apache Software License, Version 2.0.</p>
+                  </div>
+               </div>
+               <!-- <div class="col-md-2 col-md-offset-7 text-right hidden-sm hidden-xs">
+                  <ul class="list-unstyled">
+                     <li>
+                        <a href="#" title="Blog">Blog</a>
+                     </li>
+                     <li>
+                        <a href="#" title="Twitter">Twitter</a>
+                     </li>
+                     <li>
+                        <a href="#" title="Google+">Google+</a>
+                     </li>
+                  </ul>
+                  </div> -->
+            </div>
+         </footer>
+         <div class="container" id="companyfooter">
+            <div class="redhatlogo">
+               <div id="logospacer"></div>
+               <a href="http://www.redhat.com/"><img src="/theme/images/common/redhat_logo.png"></a>
+            </div>
+         </div>
+         <span class="backToTop">
+         <a href="#top">back to top</a>
+         </span>
+         <script src="/javascripts/bootstrap-community.js"></script>
+      </div>
+   </body>
+</html>
